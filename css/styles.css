@@ -401,7 +401,11 @@ footer {
   margin: 0 0 20px 0;
 }
 .join .socialmedia-link {
+  background-color: rgba(255, 255, 255, 0.1);
   fill: var(--secondary-text-color);
+}
+.join .socialmedia-link:hover {
+  background-color: var(--accent-color);
 }
 
 /* стили для portfolio.html */
